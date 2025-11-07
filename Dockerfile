@@ -16,7 +16,7 @@ COPY . .
 # 6️⃣ Expose Vite's default dev server port
 EXPOSE 5173
 
-# 6️⃣ Start the app 
+# 6️⃣ Start app
 CMD ["npm", "run", "dev", "--", "--host"]
 
 # 7️⃣ Start the Vite development server
