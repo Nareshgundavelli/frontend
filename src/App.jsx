@@ -13,7 +13,7 @@ export default function LoginPage() {
     setMessage('');
 
     try {
-      const response = await fetch('http://54.221.25.126:5000/api/login', {
+      const response = await fetch('http://44.211.187.16:5000/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })
