@@ -25,5 +25,5 @@ CMD ["npm", "run", "dev", "--", "--host"]
 # 6️⃣ Expose frontend port (React default port is 3000)
 #EXPOSE 5173
 
-# 7️⃣ Start React app
+#to start the server
 #CMD ["npm", "start"]
