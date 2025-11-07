@@ -13,8 +13,15 @@ RUN npm install
 # 5️⃣ Copy rest of the code
 COPY . .
 
+
+# 6️⃣ Expose Vite's default dev server port
+EXPOSE 5173
+
+# 7️⃣ Start the Vite development server
+CMD ["npm", "run", "dev"]
+
 # 6️⃣ Expose frontend port (React default port is 3000)
-EXPOSE 3000
+#EXPOSE 5173
 
 # 7️⃣ Start React app
-CMD ["npm", "start"]
+#CMD ["npm", "start"]
